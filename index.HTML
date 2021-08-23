@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheet.CSS">
+    <title>The Legend of Zelda</title>
+</head>
+<body>
+    <!-- NAVBAR -->
+
+    <nav class="navbar navbar-expand-sm navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="/recursos/nintendo.jpg" alt="" width="140">
+            </a>
+
+            <button class="navbar-toggler" 
+            type="button" 
+            data-toggle="collapse" 
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Nintendo Switch</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Games</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Register</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Sign in</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- IMAGEN PRINCIPAL -->
+
+    <div class="parent w-100">
+        <img class="fondo w-100" src="/recursos/background.png" />
+        <img class="logo w-50" src="/recursos/logo-loz.png" />
+      </div>  
+
+
+    <!-- RIBBON -->
+
+    <div id="ribbon" class="container-fluid">
+        <div id="birthday" class="container w-50 px-5 rounded">
+            <div class="row align-items-center">
+                <div class="col-sm p-2" > <img src="/recursos/epona.png" alt="" class="epona w-75 mx-auto d-block"> </div>
+                <div class="col-sm p-3 text-light text-center"> 
+                    <p class="h3 text-warning">Journey to the kingdom of Hyrule</p>
+                    <h4 class="text-shadow d-none d-lg-block">and discover the timeless battles between good and evil</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SEPARADOR RIBBON -->
+
+    <div id="separator-ribbon">
+        <div class="content bg-dark">
+            <img src="/recursos/separador.png" alt="" class="img-fluid pt-4 mx-auto d-block w-75">
+        </div>
+    </div>
+
+    <!-- JUEGOS -->
+
+    <div id="games">
+        <div class="container-md p5">
+            
+            <div class="row pt-5">
+                <h3 class="featuredgames text-center pb-5 pt-5 h2 text-light">Featured The Legend of Zelda Games</h3>
+            </div>
+
+            <div class="row">
+                <div class="col-sm">
+                    <div class="card w-100 card-border mb-5">
+                        <img src="/recursos/botw.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Breath of the Wild</h5>
+                          <p class="card-text">No kingdom. No memories. After a 100-year slumber, Link wakes up alone in a world he no longer remembers.</p>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-sm">
+                    <div class="card w-100 card-border mb-5">
+                        <img src="/recursos/linksawakening.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Link's Awakening</h5>
+                          <p class="card-text">Link has washed ashore on a mysterious island with strange and colorful inhabitants. To return home, Link must collect magical instruments across the land and awaken the Wind Fish.</p>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-sm">
+                    <div class="card w-100 card-border mb-5">
+                        <img src="/recursos/skyward-sword.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Skyward Sword</h5>
+                          <p class="card-text">Soar between floating islands and descend to the treacherous surface world in the earliest story of the Legend of Zelda series.</p>
+                        </div>
+                      </div>
+                </div>
+
+            </div>
+
+            <div class="row py-4">
+                <div class="col">
+                    <h3 class="text-center text-light">More games on Nintendo.com</h3>
+                </div>
+            </div>
+
+            <div class="row justify-content-center pb-5">
+                <div class="col-2"><a href="#" class="link-danger">Nintendo Switch</a></div>
+                <div class="col-2"><a href="#" class="link-danger">Nintendo 3DS</a></div>
+                <div class="col-1"><a href="#" class="link-danger">Wii U</a></div>
+                <div class="col-1"><a href="#" class="link-danger">Mobile</a></div>
+                <div class="col-1"><a href="#" class="link-danger">Retro</a></div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- SEPARADOR AMIIBOS -->
+
+    <div id="separator-amiibos">
+        <div class="content bg-dark">
+            <img src="/recursos/separador.png" alt="" class="pt-4 mx-auto d-block w-100">
+        </div>
+    </div>
+
+    <!-- AMIIBOS -->
+
+    <div id="amiibos" class="px-5 pb-5 bg-dark">
+        <div class="container">
+            <div class="row">
+                <h2 class="featuredamiibos text-center text-light text-shadow">Featured Amiibos Figures</h2>
+            </div>
+            <div class="row row-cols-2 row-cols-sm-2 row-cols-md-4">
+                <div class="col-sm">
+                    <img src="/recursos/amiibo01.png" alt="" class="w-100 amiibo">
+                    <div class="text-center"><span class="amiibo-name h5 p-2 text-light text-shadow">Urbosa</span></div>
+                </div>
+                <div class="col-sm">
+                    <img src="/recursos/amiibo02.png" alt="" class="w-100 amiibo">
+                    <div class="text-center"><span class="amiibo-name h5 p-2 text-light text-shadow">Revali</span></div>
+                </div>
+                <div class="col-sm">
+                    <img src="/recursos/amiibo03.png" alt="" class="w-100 amiibo">
+                    <div class="text-center"><span class="amiibo-name h5 p-2 text-light text-shadow">Mipha</span></div>
+                </div>
+                <div class="col-sm">
+                    <img src="/recursos/amiibo04.png" alt="" class="w-100 amiibo">
+                    <div class="text-center"><span class="amiibo-name h5 p-2 text-light text-shadow">Daruk</span></div>
+                </div>
+            </div>
+
+            <div class="row py-5">
+                <div class="col text-center">
+                    <a href="#" class="link-dark">
+                        <button class="btn btn-warning btn-lg rounded-pill p-3 font-weight-bold">View Amiibo catalog</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CARRUSEL 
+
+    <div class="carousel slide" id="mainSlider" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" >
+                <img src="/recursos/botw.jpg" alt="" class="d-block w-100">
+            </div>
+            <div class="carousel-item" >
+                <img src="/recursos/linksawakening.jpg" alt="" class="d-block w-100">
+            </div>
+            <div class="carousel-item" >
+                <img src="/recursos/skyward-sword.jpg" alt="" class="d-block w-100">
+            </div>
+            <div class="carousel-item" >
+                <img src="/recursos/ageofcalamity.jpg" alt="" class="d-block w-100">
+            </div>
+        </div>
+    </div> -->
+
+
+    <!-- PLAY NINTENDO -->
+
+    <div id="play">
+        <div class="container-sm p-5">
+            <div class="row">
+                <h3 class="text-center h1 text-light text-shadow">Link and friends on Play Nintendo</h3>
+            </div>
+
+            <div class="row justify-content-center align-items-center">
+                <div class="col-3 d-none d-lg-block">
+                    <img src="/recursos/zelda.png" alt="" class="w-100">
+                </div>
+                <div class="col-9">
+                    <div class="row">
+                        <div class="col p-1">
+                            <!-- CARD -->
+                            <div class="card mb-3 bg-warning text-white">
+                                <div class="row g-0">
+                                  <div class="col-xl-6">
+                                    <img src="/recursos/card1.jpg" class="img-fluid rounded-start w-100" alt="...">
+                                  </div>
+                                  <div class="col-xl-6">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Epic puzzle</h5>
+                                      <p class="card-text">Can you piece together this epic artwork inspired by the Legend of Zelda: Skyward Sword HD game?</p>
+                                    </div>
+                                  </div>
+                                </div> 
+                            </div><!-- CARD -->
+                        </div>
+                        <div class="col p-1">
+                            <!-- CARD -->
+                            <div class="card mb-3 bg-danger text-white">
+                                <div class="row g-0">
+                                  <div class="col-xl-6">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Fi’s dungeon tips</h5>
+                                      <p class="card-text">Before crawling through dungeons in the Legend of Zelda: Skyward Sword HD game, you can check out these helpful tips from Fi!</p>
+                                    </div>
+                                  </div>
+                                  <div class="col-xl-6">
+                                    <img src="/recursos/card2.jpg" class="img-fluid rounded-start w-100" alt="...">
+                                  </div>
+                                </div> 
+                            </div><!-- CARD -->
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col p-1">
+                            <!-- CARD -->
+                            <div class="card mb-3 bg-success text-white">
+                                <div class="row g-0">
+                                  <div class="col-xl-6">
+                                    <img src="/recursos/card3.jpg" class="img-fluid rounded-start w-100" alt="...">
+                                  </div>
+                                  <div class="col-xl-6">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Legendary characters</h5>
+                                      <p class="card-text">Which legendary character from the Legend of Zelda: Skyward Sword HD game are you most like?</p>
+                                    </div>
+                                  </div>
+                                </div> 
+                            </div><!-- CARD -->
+                        </div>
+                        <div class="col p-1">
+                            <!-- CARD -->
+                            <div class="card mb-3 bg-primary text-white">
+                                <div class="row g-0">                          
+                                  <div class="col-xl-6">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Link is back</h5>
+                                      <p class="card-text">You can take to the skies in the Legend of Zelda: Skyward Sword HD game, available now for the Nintendo Switch system.</p>
+                                    </div>
+                                  </div>
+                                  <div class="col-xl-6">
+                                    <img src="/recursos/card4.jpg" class="img-fluid rounded-start w-100" alt="...">
+                                  </div>
+                                </div> 
+                            </div><!-- CARD -->
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+
+    <div id="footer" class="p-1">
+        <div class="container w-50 pt-5">
+            <div class="row row-cols-md-2 justify-content-md-center">
+                <div class="col text-center">
+                    <a href="#">
+                        <button class="btn btn-lg rounded-pill btn-warning w-100 p-3 shadow-sm font-weight-bold">Customer support</button>
+                    </a>
+                </div>
+            </div>
+
+                <div class="row justify-content-md-center py-5">
+                    <div class="col text-center font-weight-light text-white">
+                        <p>Internet access required for online features. For more info, go to support.nintendo.com.</p>
+                        <p>Games and amiibos accesories sold separately. Figures shown not actual size. Compatibility and functionality of amiibo may vary per game. Visit amiibo.com for specific details on how each amiibo works.</p>
+                        <p>Game trademarks and copyrights are properties of their respective owners. Nintendo properties are trademarks of Nintendo. © 2021 Nintendo.</p>
+                        <p>Designed by Cufa &copy 2021.</p>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+    <!--  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>-->
+
+    <script src="/bootstrap.min.js"></script>
+    <script src="/popper.min.js"></script>
+
+</body>
+</html>
